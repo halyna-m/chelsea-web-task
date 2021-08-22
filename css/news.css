@@ -1,0 +1,32 @@
+body {
+    max-width: 1100px;
+}
+
+#last-news-title {
+    padding-top: 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.last-news {
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.last-news img {
+    max-width: 300px;
+}
+
+.last-news p {
+    text-align: justify;
+}
+
+.last-news h2 {
+    font-size: 20px;
+}
