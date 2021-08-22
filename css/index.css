@@ -44,7 +44,7 @@ ul.main-menu a {
 }
 
 div.dropdown-content {
-  margin-top: 37px;
+  margin-top: 13px;
 }
 
 div.dropdown-content li a {
@@ -55,10 +55,10 @@ div.dropdown-content li a {
 
 .dropdown-content li a:hover {background-color: var(--second-brand-color);}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown-item:hover .dropdown-content {display: block;}
 
-.main-menu-item:hover {
-  color: var(--brand-color);
+.main-menu-item a:hover {
+  color: var(--third-brand-color);
 }
 
 #img-main {
