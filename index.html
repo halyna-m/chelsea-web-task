@@ -9,21 +9,25 @@
 </head>
 <body>
     <header>
-        <nav class="dropdown">
-            <ul class="main-menu">
-                <li class="main-menu-item"><a href="#">Main</a></li>
+        <nav class="hamburger-menu dropdown">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box main-menu">
+                <li class="main-menu-item menu__item"><a href="#">Main</a></li>
                 <div class="dropdown-item">
-                    <li class="main-menu-item"><a href="#">Matches</a></li>
+                    <li class="main-menu-item menu__item"><a href="#">Matches</a></li>
                     <div class="dropdown-content main-menu-item">
                         <li><a href="#">Calendar of matches</a></li>
                         <li><a href="#">Next game</a></li>
                         <li><a href="#">Raitings</a></li>
                     </div>
                 </div>
-                <li class="main-menu-item"><a href="news.html">News</a></li>
-                <li class="main-menu-item"><a href="#">Fans</a></li>
-                <li class="main-menu-item"><a href="#">Contacts</a></li>
-                <li class="main-menu-item"><a href="#">Admin</a></li>
+                <li class="main-menu-item menu__item"><a href="news.html">News</a></li>
+                <li class="main-menu-item menu__item"><a href="fans.html">Fans</a></li>
+                <li class="main-menu-item menu__item"><a href="contacts.html">Contacts</a></li>
+                <li class="main-menu-item menu__item"><a href="#">Admin</a></li>
             </ul>
         </nav>
         <div class="animation">
@@ -55,11 +59,11 @@
     </main>
     <footer>
         <nav class="footer-menu">
-            <a href="#">Main</a>
+            <a href="index.html">Main</a>
             <a href="#">Matches</a>
             <a href="#news.html">News</a>
-            <a href="#">Fans</a>
-            <a href="#">Contacts</a>
+            <a href="fans.html">Fans</a>
+            <a href="contacts.html">Contacts</a>
             <a href="#">Admin</a>
         </nav>
     </footer>
