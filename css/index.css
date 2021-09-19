@@ -63,6 +63,7 @@ div.dropdown-content li a {
 
 .main-menu-item a:hover {
   color: var(--third-brand-color);
+  transition: 1s;
 }
 
 .burger div{
@@ -274,16 +275,33 @@ h2 {
   text-align: left;
 }
 
-.fans {
+.fan-article-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fans p {
   text-align: center;
   font-size: 18px;
 }
 
-.fans img {
-  max-width: 700px;
-  text-align: justify;
+.fan-info {
+  font-weight: 700;
+  margin: 20px;
 }
 
-.fans h2 {
-  font-size: 24px;
+textarea {
+  min-width: 600px;
+  min-height: 200px;
+  background-color: #e5ebfc;
+  padding: 10px;
+  margin: 5px 10px -7px 10px;
+}
+
+.submit {
+  background-color: #b9cafc;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px;
+  padding: 5px;
 }
